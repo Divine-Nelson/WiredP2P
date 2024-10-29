@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/wiredp2pnetwork -n .:../src $*
+# for shared lib, use: opp_run -l ../src/wiredp2pnetwork -n .:../src $*
